@@ -1,0 +1,188 @@
+html {
+    font-family: 'Playfair Display', serif;
+    overflow: auto;
+    
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    margin: 0px;
+    color: #423014 !important;
+    background-color:#FFF5EE !important;
+}
+
+/*--- Header Start ---*/
+.header-wrapper{
+    padding: 1vw;
+    background-color: #dfceb3;
+    color: #423014;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+.navbar-brand{
+color: #423014 !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+      color: #423014 !important;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 2vw;
+}
+
+.header-menu a{
+    color: #423014;
+    text-decoration: none;
+}
+
+.header-menu a:hover{
+    color: #191208;
+    text-decoration: none;
+}
+/*--- Header Eend ---*/
+
+
+/*--- Footer Start ---*/
+
+.footer-wrapper{
+    padding: 1vw;
+    background-color: #dfceb3;
+    color: #423014;
+    font-size: 15px;
+    position: fixed;
+    bottom:0;
+    width: 100%
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 2vw;
+}
+
+.footer-menu a{
+    color: #423014;
+    text-decoration: none;
+}
+
+.footer-menu a:hover{
+    color: #191208;
+    text-decoration: none;
+}
+
+/*--- Footer End ---*/
+
+/*--- Admin Start ---*/
+
+.admin-wrapper{
+    margin: 2vw;
+}
+
+.admin-menu{
+    list-style: none;
+
+}
+
+.admin-menu a{
+    color: #423014;
+    text-decoration: none;
+}
+
+.admin-menu a:hover{
+    color: #191208;
+    text-decoration: underline;
+}
+
+.admin-return a{
+    color: #423014;
+    text-decoration: none;
+}
+
+.admin-return a:hover{
+    color: #191208;
+    text-decoration: none;
+}
+/*--- Admin End ---*/
+
+/*--- Table Start --*/
+table {
+border: solid 1px black;
+border-collapse: collapse;
+}
+th, td {
+border: solid 1px black;
+}
+#title{font-family: arial;
+}
+thead {
+font-family: arial;
+background-color:  #F5DEB3;
+}
+tfoot {
+background-color: #ddccee;
+font-family: times, serif;
+font-size: .9em;
+font-style: italic;
+}
+td:hover {
+color: white;
+background-color:  #423014;
+}
+
+.hidden{
+ display: none;
+}
+/*--- Table End ---*/
+
+/*--- Homepage Start ---*/
+.homepage-wrapper{
+    margin: 2vw;
+}
+
+.site-title{
+    text-align: center;
+}
+
+.book-cover{
+ width: 10vw;
+ height: 15vw;
+}
+
+.left{
+ float: left;
+}
+/*--- Homepage End ---*/
+
+/*--- View Start ---*/
+.view-discription{
+ padding: 2vw;
+}
+/*--- View End --*/
+
+.btn-custom{
+background-color: #64471b !important;
+color: #fff !important;
+}
+
+.category-links a{
+    color: #423014;
+    text-decoration: none;
+}
+
+.category-links a:hover{
+    color: #191208;
+    text-decoration: underline;
+}
+
+.book-link{
+color: #423014;
+text-decoration: none;
+}
+
+.book-link:hover{
+color: white;
+text-decoration: underline;
+}
